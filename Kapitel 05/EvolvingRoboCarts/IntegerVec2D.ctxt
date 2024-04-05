@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IntegerVec2D
+comment0.text=\r\n\ Helps\ to\ process\ 2D\ integer\ vectors.\r\n
+comment1.params=x\ y
+comment1.target=IntegerVec2D(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ IntegerPoint2D\r\n
+comment2.params=
+comment2.target=double\ length()
+comment3.params=
+comment3.target=int\ sqrLength()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

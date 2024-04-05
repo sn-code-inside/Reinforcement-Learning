@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ToolKit
+comment0.text=\r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=a\ p
+comment1.target=double\ Sigmoid(double,\ double)
+comment1.text=\r\n\ Normalize\ value\ to\ make\ it\ from\ 1\ to\ -1\r\n
+comment2.params=
+comment2.target=double\ RandomSigmoid()
+comment2.text=\r\n\ Random\ number\ from\ -1\ to\ 1;\r\n
+comment3.params=a\ b\ c
+comment3.target=double\ getValueInRange(double,\ double,\ double)
+comment3.text=\r\n\ Compare\ value\ of\ a\ to\ b\ and\ c.\ If\ is\ smaller\ then\ b\ or\ greater\ than\ c,\ a\ will\ become\ b\ or\ c\r\n
+comment4.params=x
+comment4.target=int\ round(double)
+comment4.text=\ \r\n\ Rounds\ a\ double\ and\ makes\ it\ int.\r\n
+numComments=5

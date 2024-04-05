@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Sarsa
+comment0.text=\r\n\ episode\ element\:\ (state,\ action,\ reward,\ next\ state,\ next\ action)\r\n\ \r\n
+comment1.params=s\ action\ reward\ s_new\ aktion_new\ episodeEnd
+comment1.target=Sarsa(State,\ int,\ double,\ State,\ int,\ boolean)
+numComments=2

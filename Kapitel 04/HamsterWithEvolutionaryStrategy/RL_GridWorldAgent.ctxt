@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=RL_GridWorldAgent
+comment0.text=\r\n\ Reinforcement\ learning\ GridWorld-agents.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=s_key
+comment1.target=double[]\ P_Policy(java.lang.String)
+comment1.text=\r\n\ Stochastic\ policy\ of\ the\ agent.\ Assigns\ a\ probability\ distribution\ to\ a\ state\ over\ the\ set\ of\ \r\n\ possible\ actions.\r\n\ @param\ s_key\ Key\ for\ given\ world\ state\ s.\r\n\ @return\ Probability\ distribution\ over\ action\ set\ related\ to\ the\ state.\r\n
+comment2.params=dir
+comment2.target=int\ transitUncertainty(int)
+comment2.text=\r\n\ Modeling\ of\ unpredictable\ deviations\ in\ the\ execution\ of\ an\ action.\ Probability\ \r\n\ distribution\ is\ determined\ by\ the\ transit\ model.\r\n\ @param\ dir\ id\ of\ transition\ ("direction"\ in\ our\ case).\r\n
+comment3.params=P
+comment3.target=int\ selectAccordingToDistribution(double[])
+comment3.text=\r\n\ Action\ selection\ according\ to\ the\ probability\ distribution\ P.\r\n\ @return\ selected\ option,\ -1\ if\ no\ selection\ (error)\ \r\n
+comment4.params=world\ x\ y\ a
+comment4.target=java.util.ArrayList\ successorStateDistribution(RL_Evo_GridEnv,\ int,\ int,\ int)
+comment4.text=\r\n\ Finds\ the\ possible\ successor\ states\ S_f\ that\ can\ be\ reached\ from\ the\ state\ [x,y]\ (gridworld)\ by\ \r\n\ action\ a\ with\ the\ corresponding\ probabilities.\ (Corresponds\ to\ P(s'|s,a)\ ,with\ s'\ in\ S_f)\r\n\ \r\n\ @param\ x\ column\ in\ the\ gridworld\r\n\ @param\ y\ row\ in\ the\ gridworld\r\n\ @param\ a\ action\r\n\ @return\ List\ of\ transitions\ (sucessor\ state\ and\ propability)\r\n
+comment5.params=x\ y\ score
+comment5.target=java.lang.String\ getStateKey(int,\ int,\ int)
+comment5.text=\r\n\ Creates\ a\ state\ key\ for\ accessing\ the\ maps.\r\n\ @param\ x\ column\ in\ the\ gridworld\r\n\ @param\ y\ row\ in\ the\ gridworld\r\n\ @param\ score\ collected\ grains\r\n\ @return\ state\ key\r\n
+comment6.params=s
+comment6.target=int\ getN(java.lang.String)
+comment6.text=\r\n\ Gets\ the\ counter\ status\ at\ the\ state\ s.\r\n\ @param\ s\ state\ key\r\n\ @return\ counter\ status\ at\ state\ s.\r\n
+comment7.params=s
+comment7.target=int\ incN(java.lang.String)
+comment7.text=\r\n\ Increases\ counter\ at\ state\ s.\ N(s)\ \:\=\ N(s)+1\r\n\ @param\ s\ state\ key\r\n\ @return\ new\ counter\ status\ at\ state\ s.\r\n
+comment8.params=s_key
+comment8.target=int\ getSX(java.lang.String)
+comment8.text=\r\n\ Gets\ the\ X-component\ as\ an\ integer\ value\ from\ the\ state\ key,\ which\ describes\r\n\ the\ position\ of\ the\ agent\ within\ the\ grid.\r\n\ @param\ s_key\ state\ key\r\n\ @return\ x-component\ (column)\ of\ the\ agent\ position\ in\ the\ grid.\r\n
+comment9.params=s_key
+comment9.target=int\ getSY(java.lang.String)
+comment9.text=\r\n\ Gets\ the\ Y-component\ as\ an\ integer\ value\ from\ the\ state\ key,\ which\ describes\r\n\ the\ position\ of\ the\ agent\ within\ the\ grid.\r\n\ @param\ s_key\ state\ key\r\n\ @return\ y-component\ (row)\ of\ the\ agent\ position\ in\ the\ grid.\r\n
+numComments=10

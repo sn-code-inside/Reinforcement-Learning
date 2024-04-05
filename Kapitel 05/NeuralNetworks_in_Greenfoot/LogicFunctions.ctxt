@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LogicFunctions
+comment0.text=\r\n\ Environment\ for\ testing\ neural\ networks\ in\ Greenfoot.\ Initial\ example\ with\ a\ training\ of\ logic\r\n\ functions.\ The\ Neuroph\ library\ (http\://neuroph.sourceforge.net)\ is\ used\ for\ this.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=LogicFunctions()
+comment2.params=
+comment2.target=void\ initJfxLogger()
+comment2.text=\r\n\ This\ initializes\ the\ data\ logger.\r\n
+comment3.params=event
+comment3.target=void\ handleLearningEvent(org.neuroph.core.events.LearningEvent)
+comment4.params=nnetFile
+comment4.target=void\ testNeuralNetwork(java.lang.String)
+comment5.params=neuralNet
+comment5.target=void\ testNeuralNetwork(org.neuroph.core.NeuralNetwork)
+numComments=6

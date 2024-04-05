@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MauerDaException
+comment0.text=\r\n\ Hamster-Exception\ die\ den\ Fehler\ repraesentiert,\ dass\ fuer\ einen\ Hamster,\ der\r\n\ vor\ einer\ Mauer\ steht,\ die\ Methode\ vor\ aufgerufen\ wird\ auf.\r\n\ \r\n\ @author\ Dietrich\ Boles\ (Universitaet\ Oldenburg)\r\n\ @version\ 2.0\ (07.06.2008)\r\n\ \r\n
+comment1.params=hamster\ reihe\ spalte
+comment1.target=MauerDaException(Hamster,\ int,\ int)
+comment1.text=\r\n\ Konstruktor,\ der\ die\ Exception\ mit\ dem\ die\ Exception\ verschuldenden\r\n\ Hamster\ und\ den\ Koordinaten\ der\ durch\ eine\ Mauer\ belegten\ Kachel\r\n\ initialisiert.\r\n\ \r\n\ @param\ hamster\r\n\ \ \ \ \ \ \ \ \ \ \ \ der\ Hamster,\ der\ die\ Exception\ verschuldet\ hat\r\n\ @param\ reihe\r\n\ \ \ \ \ \ \ \ \ \ \ \ Reihe\ der\ Mauer-Kachel\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ Spalte\ der\ Mauer-Kachel\r\n
+comment2.params=
+comment2.target=int\ getReihe()
+comment2.text=\r\n\ liefert\ die\ Reihe,\ in\ der\ die\ Mauer\ steht\r\n\ \r\n\ @return\ die\ Reihe,\ in\ der\ die\ Mauer\ steht\r\n
+comment3.params=
+comment3.target=int\ getSpalte()
+comment3.text=\r\n\ liefert\ die\ Spalte,\ in\ der\ die\ Mauer\ steht\r\n\ \r\n\ @return\ die\ Spalte,\ in\ der\ die\ Mauer\ steht\r\n
+comment4.params=
+comment4.target=java.lang.String\ getMessage()
+comment4.text=\r\n\ liefert\ eine\ der\ Exception\ entsprechende\ Fehlermeldung\r\n\ \r\n\ @return\ Fehlermeldung\r\n\ @see\ java.lang.Throwable\#getMessage()\r\n
+numComments=5

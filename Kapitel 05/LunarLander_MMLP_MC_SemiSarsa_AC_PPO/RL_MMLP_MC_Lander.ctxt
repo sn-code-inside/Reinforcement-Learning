@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RL_MMLP_MC_Lander
+comment0.text=\r\n\ Lunar\ lander\ with\ MMLPs\ for\ state\ estimation\ and\ MonteCarlo\ evaluation\ of\ episodes.\r\n\r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=RL_MMLP_MC_Lander()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=episode
+comment3.target=void\ update(java.util.LinkedList)
+comment3.text=\r\n\ MonteCarlo\ update\ using\ the\ recorded\ episode.\ The\ elements\ of\ the\ episode\ are\ randomly\ drawed\ for\ processing.\r\n
+numComments=4

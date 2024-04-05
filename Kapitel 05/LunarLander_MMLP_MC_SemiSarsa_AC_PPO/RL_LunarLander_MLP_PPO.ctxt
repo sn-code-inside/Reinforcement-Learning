@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RL_LunarLander_MLP_PPO
+comment0.text=\r\n\ This\ class\ describes\ an\ agent\ that\ learns\ with\ a\ kind\ of\ "single\ thread"-PPO\ update\ rule\ (actor-critic\ style).\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=s\ a\ reward\ s_new\ episodeEnd
+comment1.target=void\ update(State,\ int,\ double,\ State,\ boolean)
+comment1.text=\ \ \ \r\n\ \ \ \ private\ double\ THETA_MAX\ \=\ 500;\r\nprivate\ double\ THETA_MIN\ \=\ -500;
+comment2.params=pi_s
+comment2.target=boolean\ determ_pi(double[])
+comment3.params=x1\ x2
+comment3.target=double\ min(double,\ double)
+comment4.params=x\ min\ max
+comment4.target=double\ clip(double,\ double,\ double)
+numComments=5

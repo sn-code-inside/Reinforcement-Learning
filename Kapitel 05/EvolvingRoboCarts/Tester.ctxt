@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Tester
+comment1.params=
+comment1.target=Tester()
+comment2.params=
+comment2.target=void\ init()
+comment3.params=
+comment3.target=void\ testNet()
+comment4.params=totalWeights
+comment4.target=Genome\ generateTestGenome(int)
+comment5.params=text\ expectedValue\ result
+comment5.target=void\ checkEquality(java.lang.String,\ int,\ int)
+comment5.text=\r\n\ Print\ testresult.\r\n
+comment6.params=text\ expectedValue\ result\ maxDiff
+comment6.target=void\ checkIfDifferenceIsSmall(java.lang.String,\ double,\ double,\ double)
+numComments=7

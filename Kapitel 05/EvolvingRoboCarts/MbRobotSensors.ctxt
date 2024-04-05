@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=MbRobotSensors
+comment0.text=\r\n\ Definition\ of\ the\ MbRobotSensors.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=MbRobotSensors()
+comment2.params=on
+comment2.target=void\ setDrawDistanceSensorBeams(boolean)
+comment3.params=on
+comment3.target=void\ setDrawCollisionSensors(boolean)
+comment4.params=
+comment4.target=void\ produceSensors()
+comment5.params=p_rel
+comment5.target=IntegerVec2D\ updateRelativePosition(IntegerVec2D)
+comment5.text=\ \r\n\ Utility\ method,\ that\ updates\ the\ coordinates\ of\ a\ component\ (rotation,\ translation).\r\n\ @param\ p_rel\ location\ vector\ relative\ to\ the\ center\ of\ the\ agent\r\n\ @return\ updated\ relative\ position\r\n
+comment6.params=
+comment6.target=IntegerVec2D[]\ detectCollisions()
+comment6.text=\r\n\ Measurement\ results\ of\ the\ collision\ detectors.\r\n\ @return\ array\ with\ the\ measurements\ of\ all\ sensors.\r\n
+comment7.params=
+comment7.target=IntegerVec2D[]\ detectDistances()
+comment8.params=
+comment8.target=double\ getRangeDistanceSensors()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

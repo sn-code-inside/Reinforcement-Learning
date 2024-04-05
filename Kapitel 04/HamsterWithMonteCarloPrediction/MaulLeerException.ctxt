@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MaulLeerException
+comment0.text=\r\n\ Hamster-Exception\ die\ den\ Fehler\ repraesentiert,\ dass\ fuer\ einen\ Hamster\ ohne\r\n\ Koerner\ im\ Maul\ die\ Methode\ gib\ aufgerufen\ wird.\r\n\ \r\n\ @author\ Dietrich\ Boles\ (Universitaet\ Oldenburg)\r\n\ @version\ 2.0\ (07.06.2008)\r\n\ \r\n
+comment1.params=hamster
+comment1.target=MaulLeerException(Hamster)
+comment1.text=\r\n\ Konstruktor,\ der\ die\ Exception\ mit\ dem\ Hamster\ initialisiert,\ der\ die\r\n\ Exception\ verschuldet\ hat.\r\n\ \r\n\ @param\ hamster\r\n\ \ \ \ \ \ \ \ \ \ \ \ der\ Hamster,\ der\ die\ Exception\ verschuldet\ hat\r\n
+comment2.params=
+comment2.target=java.lang.String\ getMessage()
+comment2.text=\r\n\ liefert\ eine\ der\ Exception\ entsprechende\ Fehlermeldung\r\n\ \r\n\ @return\ Fehlermeldung\r\n\ @see\ java.lang.Throwable\#getMessage()\r\n
+numComments=3

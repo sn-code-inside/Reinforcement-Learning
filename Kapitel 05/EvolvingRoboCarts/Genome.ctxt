@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Genome
+comment0.text=\r\n\ Genome\ object\ simply\ keeps\ 2\ important\ info\:\ fitness\ and\ weights.\ \r\n\ The\ fitness\ is\ the\ distance\ that\ how\ long\ the\ car\ could\ go.\ The\ weights\ are\r\n\ a\ list\ of\ Sigmoid\ values\ which\ is\ from\ -1\ to\ 1.\r\n\ \r\n\ @author\ Hai\ Nguyen\ Ho\r\n\ @version\ 18\ Nov\ 2016\r\n\ \r\n\ https\://github.com/nguyen124/AutoDrivingCarUsingNeuronNetwork\r\n
+numComments=1

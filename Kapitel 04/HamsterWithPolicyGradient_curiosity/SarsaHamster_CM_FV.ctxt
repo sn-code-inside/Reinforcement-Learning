@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SarsaHamster_CM_FV
+comment0.text=\r\n\ SarsaHamster\ CM\ FV\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=SarsaHamster_CM_FV()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=java.lang.String\ getStateKey()
+comment4.params=xs\ a\ xs_new\ r_e
+comment4.target=double\ setToModel_C(java.lang.String,\ java.lang.Integer,\ java.lang.String,\ double)
+comment4.text=\r\n\ Adds\ an\ experience\ to\ the\ model.\r\n\ @param\ s\ state\ key\r\n\ @param\ a\ action\r\n\ @param\ xs_new\ subsequent\ state\r\n\ @param\ r_e\ observed\ extrinsic\ reward\r\n
+numComments=5

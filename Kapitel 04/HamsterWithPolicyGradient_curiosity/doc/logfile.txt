@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+D:\Program Files\Greenfoot\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+D:\Program Files\Greenfoot\lib\greenfoot.jar;D:\Program Files\Greenfoot\lib\bluejcore.jar;D:\Program Files\Greenfoot\lib\bluejeditor.jar;D:\Program Files\Greenfoot\lib\bluejext2.jar;D:\Program Files\Greenfoot\lib\junit-jupiter-5.5.2.jar;D:\Program Files\Greenfoot\lib\junit-jupiter-api-5.5.2.jar;D:\Program Files\Greenfoot\lib\junit-jupiter-engine-5.5.2.jar;D:\Program Files\Greenfoot\lib\junit-jupiter-migrationsupport-5.5.2.jar;D:\Program Files\Greenfoot\lib\junit-jupiter-params-5.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-commons-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-console-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-console-standalone-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-engine-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-launcher-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-reporting-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-runner-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-suite-api-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-platform-testkit-1.5.2.jar;D:\Program Files\Greenfoot\lib\junit-quickcheck-core-0.9.jar;D:\Program Files\Greenfoot\lib\junit-vintage-engine-5.5.2.jar;D:\Program Files\Greenfoot\lib\hamcrest-core-1.3.jar;D:\Program Files\Greenfoot\lib\bluej.jar;D:\Program Files\Greenfoot\lib\classgraph-4.8.90.jar;D:\Program Files\Greenfoot\lib\diffutils-1.2.1.jar;D:\Program Files\Greenfoot\lib\commons-logging-api-1.1.2.jar;D:\Program Files\Greenfoot\lib\jl1.0.1.jar;D:\Program Files\Greenfoot\lib\opencsv-2.3.jar;D:\Program Files\Greenfoot\lib\xom-1.2.9.jar;D:\Program Files\Greenfoot\lib\lang-stride.jar;D:\Program Files\Greenfoot\lib\nsmenufx-2.1.8.jar;D:\Program Files\Greenfoot\lib\richtextfx-fat-0.9.0.jar;D:\Program Files\Greenfoot\lib\guava-17.0.jar;D:\Program Files\Greenfoot\lib\httpclient-4.1.1.jar;D:\Program Files\Greenfoot\lib\httpcore-4.1.jar;D:\Program Files\Greenfoot\lib\httpmime-4.1.1.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.base.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.controls.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.fxml.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.graphics.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.media.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.properties.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.swing.jar;D:\Program Files\Greenfoot\lib\javafx\lib\javafx.web.jar;D:\Program Files\Greenfoot\lib\userlib\logback-classic-1.0.13.jar;D:\Program Files\Greenfoot\lib\userlib\logback-core-1.1.2.jar;D:\Program Files\Greenfoot\lib\userlib\neuroph-core-2.98.jar;D:\Program Files\Greenfoot\lib\userlib\slf4j-api-1.7.5.jar;D:\Program Files\Greenfoot\lib\userlib\visrec-api-1.0.0.jar;C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs
+-d
+C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\QHamster_FV.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\QHamster_FV.java...
+Constructing Javadoc information...
+warning: unknown enum constant Tag.Any
+  reason: class file for threadchecker.Tag not found
+warning: unknown enum constant Tag.Any
+warning: unknown enum constant Tag.Any
+warning: unknown enum constant Tag.Any
+Standard Doclet version 11.0.10
+Building tree for all the packages and classes...
+Generating C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc\QHamster_FV.html...
+C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\QHamster_FV.java:172: warning - @param argument "s_key_new" is not a parameter name.
+C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\QHamster_FV.java:305: warning - @param argument "s" is not a parameter name.
+Generating C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc\package-summary.html...
+Generating C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc\allclasses.html...
+Generating C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc\allclasses.html...
+Generating C:\Users\Development\Java\GreenfootRL\JavaGreenfootRL2_portable\chapter4 decision making and learning\HamsterWithPolicyGradient_featureVecs\doc\index.html...
+6 warnings

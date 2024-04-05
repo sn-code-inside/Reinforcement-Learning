@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=HamsterWithAdjustablePolicy
+comment0.text=\r\n\ A\ hamster\ agent\ with\ a\ policy\ that\ can\ tabulate\ any\ action\ to\ any\ state.\r\n\r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=HamsterWithAdjustablePolicy()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=x\ y
+comment4.target=double[]\ P_Policy(int,\ int)
+comment4.text=\r\n\ Flexible\ deterministic\ policy\ (with\ random\ initialization),\ a\ certain\ action\ is\ assigned\ to\ each\ state.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @return\ deterministic\ probability\ distribution\ (one\ action\ has\ probability\ 1.0)\r\n
+comment5.params=x\ y
+comment5.target=int\ getPi(int,\ int)
+comment5.text=\r\n\ Returns\ the\ action\ stored\ for\ a\ state.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @return\ The\ action\ that\ is\ stored\ at\ the\ state.\r\n
+comment6.params=x\ y\ a
+comment6.target=void\ setPi(int,\ int,\ int)
+comment6.text=\r\n\ Stores\ an\ action\ for\ a\ state.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @param\ a\ Action\ to\ be\ stored\ at\ the\ state.\r\n
+comment7.params=
+comment7.target=void\ setArbitraryPolicy()
+comment7.text=\r\n\ Initializes\ the\ assignment\ state->action\ for\ each\ world\ state\ s\ from\ S\ arbitrarily.\r\n
+comment8.params=
+comment8.target=java.lang.String\ getState()
+comment9.params=x\ y\ score
+comment9.target=java.lang.String\ getStateKey(int,\ int,\ int)
+comment9.text=\r\n\ Produces\ a\ string\ that\ represents\ a\ state.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @return\ state\ key\r\n
+numComments=10

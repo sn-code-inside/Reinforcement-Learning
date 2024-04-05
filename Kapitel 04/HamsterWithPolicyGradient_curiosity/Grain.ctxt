@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Grain
+comment0.text=\r\n\ Representation\ of\ grain\ piles\ in\ the\ "java-hamster-model"\r\n\ \r\n\ @author\ Dietrich\ Boles\ (\ University\ of\ Oldenburg,\ https\://uol.de/en/dietrich-boles\ ;April,2021\ )\r\n\ @version\ 2.0\ (07.06.2008)\r\n\ \r\n
+comment1.params=
+comment1.target=Grain()
+comment2.params=number
+comment2.target=Grain(int)
+comment3.params=world
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment4.params=
+comment4.target=int\ getNumber()
+comment5.params=x\ y
+comment5.target=void\ setLocation(int,\ int)
+comment6.params=n
+comment6.target=void\ incNumber(int)
+numComments=7

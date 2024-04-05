@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Experience
+comment0.text=\r\n\ Element\ of\ an\ episode\ (s_t,a_t,r_t+1)\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.0\ (23.4.2021)\r\n
+comment1.params=s\ a\ r
+comment1.target=Experience(java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getS()
+comment3.params=
+comment3.target=int\ getA()
+comment4.params=
+comment4.target=double\ getR()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

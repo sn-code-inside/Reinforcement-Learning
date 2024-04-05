@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Observation
+comment0.text=\r\n\ Observation\ of\ a\ transition\ result\ (s,r)\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.0\ (23.4.2021)\r\n
+comment1.params=s\ r
+comment1.target=Observation(java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getS()
+comment3.params=
+comment3.target=double\ getR()
+comment4.params=r
+comment4.target=void\ setR(double)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

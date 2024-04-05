@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FPS
+comment0.text=\r\n\ Displays\ the\ number\ of\ frames\ per\ second\ on\ \r\n\ a\ given\ scenario.\r\n\ \r\n\ @author\ Michael\ Berry\ (mjrb4)\r\n\ @version\ 06/07/08\r\n
+comment1.params=
+comment1.target=FPS()
+comment1.text=\r\n\ Create\ a\ new\ FPS\ reading.\r\n
+comment2.params=val
+comment2.target=void\ setFPS(java.lang.Long)
+comment2.text=\r\n\ Set\ the\ value\ of\ the\ frames\ per\ second.\r\n\ @param\ val\ the\ value\ to\ set\ the\ FPS\ to.\r\n
+comment3.params=val
+comment3.target=void\ setFPS(java.lang.Double)
+comment3.text=\r\n\ Set\ the\ value\ of\ the\ frames\ per\ second.\r\n\ @param\ val\ the\ value\ to\ set\ the\ FPS\ to.\r\n
+comment4.params=
+comment4.target=double\ getFPS()
+comment4.text=\r\n\ Get\ the\ number\ of\ frames\ per\ second.\r\n\ @return\ the\ number\ of\ frames\ per\ second.\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Calculate\ the\ FPS\ based\ on\ the\ mode,\ and\r\n\ update\ the\ reading.\r\n
+comment6.params=value
+comment6.target=void\ updateImage(java.lang.String)
+comment6.text=\r\n\ Draw\ the\ image.<p>\r\n\ Sven\ van\ Nigtevecht\ slightly\ changed\ this,\r\n\ not\ so\ special\ though.\r\n\ @param\ value\ the\ FPS\ value\r\n
+comment7.params=
+comment7.target=void\ pause()
+comment7.text=\r\n\ Pauses\ the\ FPS,\ so\ it\ doesn't\ display\ a\ value\ anymore.\r\n\ Call\ this\ from\ a\ World\ subclass\ when\ the\ scenario\ is\ paused,\r\n\ like\ this\:\r\n\ <pre>\r\n\ public\ void\ stopped()\r\n\ {\r\n\ \ \ \ \ java.util.List<FPS>\ fpss\ \=\ getObjects(FPS.class);\r\n\ \ \ \ \ for\ (FPS\ a\ \:\ fpss)\ {\r\n\ \ \ \ \ \ \ \ \ a.pause();\r\n\ \ \ \ \ \ }\r\n\ \ }\r\n\ </pre>\r\n\ Starting\ it\ again\ works\ automatically.<p>\r\n\ This\ was\ added\ by\ Sven\ van\ Nigtevecht.\r\n
+numComments=8

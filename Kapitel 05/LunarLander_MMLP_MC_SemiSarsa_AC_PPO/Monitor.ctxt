@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Monitor
+comment0.text=\r\n\ Monitor\ that\ displays\ a\ text\ and\ number.\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ 1.0.1\r\n
+comment1.params=
+comment1.target=Monitor()
+comment2.params=text
+comment2.target=Monitor(java.lang.String)
+comment3.params=text
+comment3.target=void\ setText(java.lang.String)
+comment3.text=\r\n\ Sets\ the\ textoutput.\r\n\ @param\ text\ the\ output\ string.\ \r\n
+comment4.params=
+comment4.target=void\ updateImage()
+numComments=5

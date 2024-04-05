@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=RL_GridWorldAgent_FV
+comment0.text=\r\n\ Reinforcement\ learning\ GridWorld-agents\ with\ a\ partially\ observable\ environment.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=s_key
+comment1.target=double[]\ P_Policy(java.lang.String)
+comment1.text=\r\n\ Stochastic\ policy\ of\ the\ agent.\ Assigns\ a\ probability\ distribution\ to\ a\ state\ over\ the\ set\ of\ \r\n\ possible\ actions.\r\n\ @param\ s_key\ Key\ for\ given\ world\ state\ s.\r\n\ @return\ Probability\ distribution\ over\ action\ set\ related\ to\ the\ state.\r\n
+comment10.params=s_key\ a
+comment10.target=int\ incN(java.lang.String,\ int)
+comment10.text=\r\n\ Increases\ counter\ at\ state-action\ pair\ (s,a).\ N(s,a)\ \:\=\ N(s,a)+1\r\n\ @param\ s\ state\ key\r\n\ @param\ a\ action\r\n\ @return\ new\ counter\ status\ at\ state\ s.\r\n
+comment11.params=
+comment11.target=java.lang.String\ getStateKey()
+comment11.text=\r\n\ Creates\ the\ state\ key\ for\ accessing\ the\ table\ for\ V(s)\ an\ theta(s)\ based\ on\ features.\ \r\n\ If\ it\ does\ not\ exist,\ the\ corresponding\ records\ are\ created.\r\n\ @param\ x\ column\ in\ the\ gridworld\r\n\ @param\ y\ row\ in\ the\ gridworld\r\n\ @param\ score\ collected\ grains\ \r\n\ @return\ state\ key\r\n
+comment12.params=x\ y
+comment12.target=java.util.List\ getPossibleActions(int,\ int)
+comment12.text=\r\n\ Gets\ the\ possible\ actions\ for\ a\ feature-state\ key.\r\n\ @param\ x\ column\ in\ the\ gridworld\r\n\ @param\ y\ row\ in\ the\ gridworld\r\n\ @return\ List\ with\ the\ possible\ actions.\r\n
+comment2.params=xs_key\ x\ y
+comment2.target=double[]\ P_PolicyVisualization(java.lang.String,\ int,\ int)
+comment2.text=\ \r\n\ Just\ for\ visualization\ purposes\ of\ the\ policy\ in\ the\ gridworld\!\r\n\ @param\ xs_key\ state\ key\r\n\ @param\ x\ column\ in\ the\ grid\r\n\ @param\ y\ row\ in\ the\ grid\r\n\ @return\ a\ probability\ distribution\ over\ the\ action\ space.\r\n
+comment3.params=dir
+comment3.target=int\ transitUncertainty(int)
+comment3.text=\r\n\ Modeling\ of\ unpredictable\ deviations\ in\ the\ execution\ of\ an\ action.\ Probability\ \r\n\ distribution\ is\ determined\ by\ the\ transit\ model.\r\n\ @param\ dir\ id\ of\ transition\ ("direction"\ in\ our\ case).\r\n
+comment4.params=P
+comment4.target=int\ selectAccordingToDistribution(double[])
+comment4.text=\r\n\ Action\ selection\ according\ to\ the\ probability\ distribution\ P.\r\n\ @return\ selected\ option,\ -1\ if\ no\ selection\ (error)\ \r\n
+comment5.params=world\ x\ y\ a
+comment5.target=java.util.ArrayList\ successorStateDistribution(RL_GridEnv_FV,\ int,\ int,\ int)
+comment5.text=\r\n\ Finds\ the\ possible\ successor\ states\ S_f\ that\ can\ be\ reached\ from\ the\ state\ [x,y]\ (gridworld)\ by\ \r\n\ action\ a\ with\ the\ corresponding\ probabilities.\ (Corresponds\ to\ P(s'|s,a)\ ,with\ s'\ in\ S_f)\r\n\ \r\n\ @param\ x\ column\ in\ the\ gridworld\r\n\ @param\ y\ row\ in\ the\ gridworld\r\n\ @param\ a\ action\r\n\ @return\ List\ of\ transitions\ (sucessor\ state\ and\ propability)\r\n
+comment6.params=
+comment6.target=java.lang.String\ getState()
+comment6.text=\r\n\ Observes\ the\ current\ state\ of\ the\ environment.\r\n
+comment7.params=s_key
+comment7.target=int\ getN(java.lang.String)
+comment7.text=\r\n\ Gets\ the\ counter\ status\ at\ the\ state\ s.\r\n\ @param\ s\ state\ key\r\n\ @return\ counter\ status\ at\ state\ s.\r\n
+comment8.params=s
+comment8.target=int\ incN(java.lang.String)
+comment8.text=\r\n\ Increases\ counter\ at\ state\ s.\ N(s)\ \:\=\ N(s)+1\r\n\ @param\ s\ state\ key\r\n\ @return\ new\ counter\ status\ at\ state\ s.\r\n
+comment9.params=s_key\ a
+comment9.target=int\ getN(java.lang.String,\ int)
+comment9.text=\r\n\ Gets\ the\ counter\ status\ at\ the\ state-action\ pair\ (s,a).\r\n\ @param\ s\ state\ key\r\n\ @param\ a\ action\r\n\ @return\ counter\ status\ at\ the\ state-action\ pair\ (s,a).\r\n
+numComments=13

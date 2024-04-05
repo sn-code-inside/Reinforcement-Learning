@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Arbitrary
+comment0.text=\r\n\ Randomly\ moving\ TicTacToe\ agent.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=spieler\ env\ ident
+comment1.target=Arbitrary(char,\ TicTacToe_Env,\ java.lang.String)
+comment2.params=action\ player
+comment2.target=double\ evaluateAction(int,\ char)
+comment2.text=\r\n\ Evaluates\ an\ action\ in\ a\ state\ for\ one\ of\ the\ players\ based\ on\ the\ \r\n\ field\ state\ attribute\ (the\ 9\ TicTacToe\ fields,\ they\ are\ either\ '-','x'\ or\ 'o').\r\n\ For\ this,\ a\ number\ between\ 0\ and\ 100\ is\ drawn\ at\ random.\r\n\ \r\n\ @param\ action\ Number\ of\ the\ field\ into\ which\ is\ set.\r\n\ @param\ player\ the\ character\ of\ the\ player\ ('x'\ or\ 'o')\r\n\ @return\ Evaluation\ of\ the\ action\ from\ the\ point\ of\ view\ of\ the\ specified\ player\r\n
+numComments=3

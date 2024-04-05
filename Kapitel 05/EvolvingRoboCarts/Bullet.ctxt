@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ A\ bullet\ that\ can\ hit\ rocks\ (not\ used).\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n
+comment1.params=
+comment1.target=Bullet()
+comment2.params=speed\ rotation
+comment2.target=Bullet(Vector,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ bullet\ will\ damage\ Korns\ if\ it\ hits\ them.\r\n
+comment4.params=
+comment4.target=void\ checkTargetHit()
+comment4.text=\r\n\ Check\ whether\ we\ have\ hit\ an\ rocks.\r\n
+numComments=5

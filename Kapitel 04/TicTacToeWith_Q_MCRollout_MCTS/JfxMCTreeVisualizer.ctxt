@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=JfxMCTreeVisualizer
+comment0.text=\r\n\ Tool\ for\ displaying\ monte-carlo\ trees.\r\n\ \r\n\ Supplementary\ material\ to\ the\ Springer\ book\r\n\ 'Reinforcement\ Learning\ from\ scratch\ -\ Understanding\ current\ approaches\ with\ Java\ and\ Greenfoot'\ \r\n\ Uwe\ Lorenz\r\n\ \r\n\ https\://www.facebook.com/ReinforcementLearningJava\r\n\r\n\ license\:\ CC\ BY-SA\ 4.0\ (Attribution-ShareAlike)\r\n\r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 0.9\ (nicht\ finalisiert)\r\n
+comment1.params=mct\ diagrammTitel
+comment1.target=JfxMCTreeVisualizer(MC_Tree,\ java.lang.String)
+comment2.params=mct
+comment2.target=void\ updateVisualisation(MC_Tree)
+comment3.params=rootknoten
+comment3.target=javafx.scene.control.TreeView\ erstelleVisualization(MCT_Node)
+comment4.params=vaterknoten\ tiVater\ tiefe
+comment4.target=void\ rekursiverAufbau(MCT_Node,\ javafx.scene.control.TreeItem,\ int)
+comment5.params=zustand
+comment5.target=javafx.scene.Node\ produziereNodeIcon(char[])
+comment6.params=information
+comment6.target=void\ append(java.lang.String)
+comment6.text=\r\n\ F\u00FCgt\ Textinformationen\ hinzu.\r\n\ @param\ information\ Text,\ der\ im\ Info-Reiter\ hinzugef\u00FCgt\ werden\ soll.\r\n
+comment7.params=information
+comment7.target=void\ appendln(java.lang.String)
+comment7.text=\r\n\ F\u00FCgt\ eine\ Zeile\ Textinformationen\ hinzu.\r\n\ @param\ information\ Textzeile,die\ im\ Info-Reiter\ hinzugef\u00FCgt\ werden\ soll.\r\n
+comment8.params=
+comment8.target=void\ appendTimeStamp()
+comment8.text=\r\n\ F\u00FCgt\ einen\ Zeitstempel\ im\ Info-Reiter\ hinzu.\r\n
+numComments=9

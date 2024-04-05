@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Wall
+comment0.text=\r\n\ Representation\ of\ walls\ in\ the\ "java-hamster-model"\r\n\ \r\n\ @author\ Dietrich\ Boles\ (Universitaet\ Oldenburg)\r\n\ @version\ 2.0\ (07.06.2008)\r\n\ \r\n
+comment1.params=
+comment1.target=Wall()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=x\ y
+comment3.target=void\ setLocation(int,\ int)
+comment4.params=x\ y
+comment4.target=void\ removeObjectsOnCell(int,\ int)
+numComments=5

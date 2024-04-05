@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HamsterException
+comment0.text=\r\n\ Oberklasse\ aller\ Exception-Klassen\ des\ Java-Hamster-Modells.\ Bei\ allen\r\n\ Exceptions\ des\ Java-Hamster-Modells\ handelt\ es\ sich\ um\ Unchecked-Exception,\r\n\ die\ nicht\ unbedingt\ abgefangen\ bzw.\ deklariert\ werden\ muessen.\r\n\ \r\n\ @author\ Dietrich\ Boles\ (Universitaet\ Oldenburg)\r\n\ @version\ 2.0\ (07.06.2008)\r\n\ \r\n
+comment1.params=hamster
+comment1.target=HamsterException(Hamster)
+comment1.text=\r\n\ Konstruktor,\ der\ die\ Exception\ mit\ dem\ Hamster\ initialisiert,\ der\ die\r\n\ Exception\ verschuldet\ hat.\r\n\ \r\n\ @param\ hamster\r\n\ \ \ \ \ \ \ \ \ \ \ \ der\ Hamster,\ der\ die\ Exception\ verschuldet\ hat\r\n
+comment2.params=
+comment2.target=Hamster\ getHamster()
+comment2.text=\r\n\ liefert\ den\ Hamster,\ der\ die\ Exception\ verschuldet\ hat\r\n\ \r\n\ @return\ der\ Hamster,\ der\ die\ Exception\ verschuldet\ hat\r\n
+numComments=3

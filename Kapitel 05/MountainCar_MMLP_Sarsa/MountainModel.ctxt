@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MountainModel
+comment0.text=\r\n\ Java\ implementation\ of\ the\ "mountain\ landscape"\ from\ the\ Mountain\ Car\ environment\ by\ Sutton,\ Barto.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=MountainModel()
+comment2.params=x
+comment2.target=double\ getYPos(double)
+comment2.text=\r\n\ Liefert\ die\ H\u00F6he\ in\ Abh\u00E4ngigkeit\ von\ x.\r\n
+comment3.params=x
+comment3.target=double\ gefaelle(double)
+comment3.text=\r\n\ Liefert\ das\ Gef\u00E4lle\ des\ Bergs\ in\ Abh\u00E4ngigkeit\ von\ x.\r\n
+comment4.params=x\ y\ w
+comment4.target=int[]\ transformKoord(double,\ double,\ greenfoot.World)
+comment4.text=\r\n\ Transformiert\ die\ Koordinaten\ aus\ dem\ Modell\ in\ Bildschirmkoordinaten.\r\n
+comment5.params=auto
+comment5.target=void\ aktualisiereAnzeige(MountainCar)
+comment5.text=\r\n\ Aktualisiert\ die\ Anzeige\ des\ Autos.\r\n
+numComments=6

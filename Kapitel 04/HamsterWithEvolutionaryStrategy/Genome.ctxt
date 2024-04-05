@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Genome
+comment1.params=
+comment1.target=Genome()
+comment2.params=
+comment2.target=Genome\ clone()
+comment2.text=\r\n\ Clones\ a\ genome.\ A\ new\ ID\ number\ is\ assigned\ to\ the\ clone.\r\n
+numComments=3

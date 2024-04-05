@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Moon
+comment0.text=\r\n\ A\ moon.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n\ \r\n\ @version\ 1.1\r\n
+comment1.params=
+comment1.target=Moon()
+comment2.params=
+comment2.target=double\ getGravity()
+comment2.text=\ \r\n\ Gravity\ on\ the\ moon\ \ \r\n\r\n
+comment3.params=
+comment3.target=greenfoot.Color\ getLandingColor()
+comment3.text=\r\n\ Color\ of\ the\ landing\ platform\ \r\n\ \r\n
+comment4.params=
+comment4.target=greenfoot.Color\ getSpaceColor()
+comment4.text=\r\n\ Color\ of\ the\ space\ \r\n\ \r\n
+numComments=5

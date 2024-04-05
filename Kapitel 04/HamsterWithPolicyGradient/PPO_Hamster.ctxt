@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PPO_Hamster
+comment0.text=\r\n\ PPO\ hamster\ (AC\ style)\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=PPO_Hamster()
+comment2.params=s\ a\ reward\ s_new\ episodeEnd
+comment2.target=void\ update(java.lang.String,\ int,\ double,\ java.lang.String,\ boolean)
+comment3.params=pi_s
+comment3.target=boolean\ determ_pi(double[])
+comment4.params=x1\ x2
+comment4.target=double\ min(double,\ double)
+comment5.params=x\ min\ max
+comment5.target=double\ clip(double,\ double,\ double)
+numComments=6

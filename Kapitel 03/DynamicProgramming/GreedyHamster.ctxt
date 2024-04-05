@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=GreedyHamster
+comment0.text=\r\n\ A\ greedy\ hamster\ agent\ who\ always\ follows\ the\ neighbor\ state\ with\ the\ highest\ rating.\ \r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=
+comment1.target=GreedyHamster()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=java.lang.String\ getState()
+comment4.params=x\ y\ score
+comment4.target=java.lang.String\ getStateKey(int,\ int,\ int)
+comment4.text=\r\n\ Produces\ a\ string\ that\ represents\ a\ state.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n
+comment5.params=
+comment5.target=void\ act()
+comment6.params=x\ y
+comment6.target=double[]\ P_Policy(int,\ int)
+comment6.text=\ \r\n\ Policy\ of\ the\ agent.\ Here\ you\ can\ set\ the\ behavior\ of\ the\ hamster.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @return\ probability-distribution\ over\ actionspace\r\n
+comment7.params=x\ y
+comment7.target=double[]\ P_Policy_Deterministic(int,\ int)
+comment7.text=\r\n\ "Greedy"\ policy.\ The\ agent\ follows\ the\ state\ with\ the\ highest\ rating.\ (Multiple\r\n\ maximums\ may\ occur).\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @return\ probability-distribution\ over\ actionspace\r\n
+comment8.params=x\ y
+comment8.target=double[]\ P_Policy_withTransitionmodel(int,\ int)
+comment8.text=\r\n\ Policy\ that\ take\ into\ account\ the\ transition\ probabilities.\ The\ agent\ follows\ the\ action\ with\ \r\n\ the\ best\ subsequent\ state\ distribution.\r\n\ @param\ x\ X-component\ of\ the\ state\ (column).\r\n\ @param\ y\ Y-component\ of\ the\ state\ (row).\r\n\ @return\ probability-distribution\ over\ actionspace\r\n
+comment9.params=
+comment9.target=void\ take()
+comment9.text=\ \r\n\ Overloads\ the\ standard\ function\ "take"\ from\ the\ hamster\ model.\ The\ purpose\ is\ to\ recalculate\ \r\n\ the\ ratings\ after\ the\ grain\ is\ taken.\r\n
+numComments=10

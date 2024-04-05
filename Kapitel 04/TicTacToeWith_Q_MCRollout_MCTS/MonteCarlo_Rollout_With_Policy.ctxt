@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MonteCarlo_Rollout_With_Policy
+comment0.text=\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n
+comment1.params=player\ umgebung\ ident
+comment1.target=MonteCarlo_Rollout_With_Policy(char,\ TicTacToe_Env,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MonteCarlo_mit_RolloutPolicy\r\n
+comment2.params=n
+comment2.target=void\ setMaxRollouts(int)
+comment2.text=\r\n\ Setzt\ die\ Anzahl\ der\ jeweils\ durchzuf\u00FChrenden\ Rollouts.\r\n\ @param\ n\ Stichprobenumfang\ der\ MC-Rollout-Evaluation\ (auch\ f\u00FCr\ den\ simulierten\ Gegner).\r\n
+comment3.params=action\ player
+comment3.target=double\ rollout_evaluation(int,\ char)
+comment3.text=\r\n\ F\u00FChrt\ ein\ Spiel\ auf\ der\ Basis\ des\ gegebenen\ Feldzustandes\ aus.\ \r\n\ Die\ Reaction\ des\ Gegners\ wird\ mit\ einer\ "hypothetischen"\ Policy\ simuliert.\r\n\ \r\n\ @param\ action\ Nummer\ des\ Feldes\ in\ das\ gesetzt\ wird\r\n\ @param\ player\ das\ Zeichen\ des\ aktiven\ Spielers\ ('x'\ oder\ 'o')\r\n\ @return\ Bewertung\ der\ Aktion\ aus\ Sicht\ des\ angegebenen\ Spielers\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ShowRewardCollect
+comment0.text=\r\n\ Displays\ collected\ reward.\r\n\ \r\n\ Supplementary\ material\ to\ the\ book\:\ \r\n\ "Reinforcement\ Learning\ From\ Scratch\:\ Understanding\ Current\ Approaches\ -\ with\ Examples\ in\ Java\ and\ Greenfoot"\ by\ Uwe\ Lorenz.\r\n\ https\://link.springer.com/book/10.1007/978-3-031-09030-1\r\n\ \r\n\ Ausgabe\ auf\ Deutsch\:\ https\://link.springer.com/book/9783662683101\r\n\ \r\n\ Licensing\ CC-BY-SA\ 4.0\ \r\n\ Attribution\ -\ Sharing\ under\ the\ same\ conditions\r\n\ \r\n\ www.facebook.com/ReinforcementLearningJava\r\n\ github.com/sn-code-inside/Reinforcement-Learning\r\n\r\n\ www.x-ai.eu\r\n\ \r\n\ @author\ Uwe\ Lorenz\r\n\ @version\ 1.2\ (14.11.2023)\r\n\r\n\ The\ sounds\ are\ from\r\n\ "SOUND\ JAY\ -\ free\ sound\ effects"\r\n\ https\://www.soundjay.com/tos.html\r\n
+comment1.params=reward
+comment1.target=ShowRewardCollect(double)
+comment1.text=\r\n\ Create\ a\ new\ Plus1\ reading.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Calculate\ the\ Plus1\ based\ on\ the\ mode,\ and\r\n\ update\ the\ reading.\r\n
+comment3.params=value
+comment3.target=void\ updateImage(java.lang.String)
+comment3.text=\r\n\ Draw\ the\ image.<p>\r\n\ Sven\ van\ Nigtevecht\ and\ Uwe\ Lorenz\ slightly\ changed\ this,\r\n\ not\ so\ special\ though.\r\n\ @param\ value\ the\ value\ to\ display\r\n
+numComments=4

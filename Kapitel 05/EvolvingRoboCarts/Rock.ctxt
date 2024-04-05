@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Rock
+comment0.text=\r\n\ Smooth\ moving\ rock\ (not\ used).\r\n
+comment1.params=
+comment1.target=Rock()
+comment1.text=\r\n\ Create\ an\ asteroid\ with\ default\ size\ and\ random\ direction\ of\ movement.\r\n
+comment2.params=size
+comment2.target=Rock(int)
+comment2.text=\r\n\ Create\ an\ asteroid\ with\ a\ given\ size\ and\ random\ direction\ of\ movement.\r\n
+comment3.params=size\ velocity
+comment3.target=Rock(int,\ Vector)
+comment3.text=\r\n\ Create\ an\ asteroid\ with\ a\ given\ size\ and\ direction\ of\ movement.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment5.params=size
+comment5.target=void\ setSize(int)
+comment5.text=\r\n\ Set\ the\ size\ of\ this\ asteroid.\ Note\ that\ stability\ is\ directly\r\n\ related\ to\ size.\ Smaller\ asteroids\ are\ less\ stable.\r\n
+comment6.params=
+comment6.target=int\ getStability()
+comment6.text=\r\n\ Return\ the\ current\ stability\ of\ this\ asteroid.\ (If\ it\ goes\ down\ to\ \r\n\ zero,\ it\ breaks\ up.)\r\n
+comment7.params=damage
+comment7.target=void\ hit(int)
+comment7.text=\r\n\ Hit\ this\ asteroid\ dealing\ the\ given\ amount\ of\ damage.\r\n
+comment8.params=
+comment8.target=void\ breakUp()
+comment8.text=\r\n\ Break\ up\ this\ asteroid.\ If\ we\ are\ still\ big\ enough,\ this\ will\ create\ two\r\n\ smaller\ asteroids.\ If\ we\ are\ small\ already,\ just\ disappear.\r\n
+numComments=9
